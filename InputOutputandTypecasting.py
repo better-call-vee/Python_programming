@@ -22,3 +22,8 @@ second_money_int = int(second_money)
 print(type(first_money_int))  # now it will be an integer
 
 print("finally the total money: ", first_money_int + second_money_int)
+
+number = 42
+string_number = str(number)
+print(string_number)
+
