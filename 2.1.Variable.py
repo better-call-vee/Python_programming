@@ -6,6 +6,8 @@ interest_rate = 2.5 #float
 name = "You can't see me" #string
 district = 'Khulna' #string/character
 
+vee = 45
+
 is_single = True
 # is_sleeping = False
 

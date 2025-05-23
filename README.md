@@ -1,2 +1,2 @@
 # Python_programming
-I am storing the programs I've learn as a beginner
+I am storing the Python programs I've learnt as a beginner
