@@ -15,6 +15,7 @@ if boss is True:  # or if boss:
     print("Tel er bakso niye astesi, boss re tel dibo")
 else:
     print("lunch er pore asen")
+# "is" is an identity operator. This operator checks if two variables refer to the exact same object in memory.
 
 
 user_input3 = input("Enter True or False: ")
@@ -46,3 +47,11 @@ if a > 10 or boss:
     print("Either the number is greater than 10 or you are the boss")
 else:
     print("The number is less than or equal to 10 and you are not the boss")
+
+
+# empty string, 0 are falsy values
+
+# chained comparison
+x = 7
+if 0 < x <= 10:
+    print("x is a positive number less than or equal to 10.")

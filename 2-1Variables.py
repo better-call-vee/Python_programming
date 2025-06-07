@@ -7,6 +7,13 @@ name = "You can't see me" #string
 district = 'Khulna' #string/character
 
 vee = 45
+x = str(vee)
+print(type(x))
+
+z = 1j #complex number
+print(z)
+print(type(z))
+print('\n')
 
 is_single = True
 # is_sleeping = False

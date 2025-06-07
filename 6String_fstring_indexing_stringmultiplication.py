@@ -55,3 +55,10 @@ second_last_char = my_string[-2]  # Accesses the second-to-last character
 print(f"The last character is: {last_char}")  # Output: N
 print(f"The second-to-last character is: {second_last_char}")  # Output: O
 
+
+name = "Alice"
+age = 30
+message = "My name is {} and I am {} years old.".format(name, age)
+# Or using named placeholders:
+# message = "My name is {n} and I am {a} years old.".format(n=name, a=age)
+print(message)  # Output: My name is Alice and I am 30 years old.
