@@ -42,4 +42,4 @@ is_doc = filename.endswith(".docx")
 print(f"Does '{filename}' end with '.docx'? {is_doc}") # Output: True
 
 
-# explore strip, lstrip, rstrip, strip can be found in 10for-loop-dictionary, in the introduction of dictionary
+# explore strip, lstrip, rstrip

@@ -10,6 +10,14 @@ vee = 45
 x = str(vee)
 print(type(x))
 
+#multiple initialization with comma
+x, y, z = 2, 4, "c"
+print(y, x)
+x, y = 4, "tanvee"
+
+import random
+print(random.randrange(1, 10))
+
 z = 1j #complex number
 print(z)
 print(type(z))

@@ -1,0 +1,85 @@
+# 📓 Jupyter Markdown Cheat Sheet
+
+## ✨ Basic Formatting
+
+**Bold Text**  
+*Italic Text*  
+***Bold & Italic***  
+~~Strikethrough~~  
+`Inline code`
+
+---
+
+## 🧱 Headers
+
+# H1 - Main Title  
+## H2 - Section Title  
+### H3 - Subsection Title
+
+---
+
+## 🔢 Lists
+
+**Unordered List**  
+- Item 1  
+- Item 2  
+  - Subitem
+
+**Ordered List**  
+1. First item  
+2. Second item
+
+---
+
+## 💡 Blockquotes
+
+> This is a blockquote — use it for quotes, tips, or notes.
+
+---
+
+## 🧮 Code Blocks
+
+\`\`\`python  
+def greet(name):  
+    return f"Hello, {name}!"  
+\`\`\`
+
+→ Removes backslashes when using for real.
+
+---
+
+## 📌 Horizontal Rule
+
+---
+
+## 😎 Emojis (copy-paste Unicode)
+
+🔥 💡 ✅ ❌ 🚀 💻 🎯 📌
+
+---
+
+## 📊 Tables
+
+| Name    | Role         | Score |
+|---------|--------------|-------|
+| Alice   | Data Analyst |  95   |
+| Bob     | Developer    |  88   |
+
+---
+
+## 🎨 Extras
+
+- **[Link Text](https://example.com)**  
+- ![Alt Text](https://via.placeholder.com/100) ← _Image_
+
+---
+
+## ✅ Pro Tip:
+
+> Combine multiple styles:  
+> **_Bold + Italic + `code`_**  
+> Example: `***Important***`
+
+---
+
+_Stay sharp. Stay stylish. Jupyter like a pro 🚀_
