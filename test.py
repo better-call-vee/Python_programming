@@ -1,6 +1,11 @@
-thisset = {"apple", "banana", "cherry"}
-tropical = {"pineapple", "mango", "papaya"}
+class Person:
+    def __init__(self, name, age):
+        self.naam = name
+        self.boyos = age
 
-thisset.update(tropical)
+    def __str__(self):
+        return f"Naam: {self.naam}, Boyos: {self.boyos}"
 
-print(thisset)
+
+bekti = Person("Tanvee", 23)
+print(bekti)
