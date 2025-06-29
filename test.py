@@ -1,11 +1,15 @@
-class Person:
-    def __init__(self, name, age):
-        self.naam = name
-        self.boyos = age
-
-    def __str__(self):
-        return f"Naam: {self.naam}, Boyos: {self.boyos}"
+class Animal:
+    def sound(self):
+        print("Animals have their own sounds...")
 
 
-bekti = Person("Tanvee", 23)
-print(bekti)
+class Dog(Animal):
+    def sound(self):
+        print("Gheu Gheu!!")
+
+
+common = Animal()
+doggo = Dog()
+
+common.sound()
+doggo.sound()
