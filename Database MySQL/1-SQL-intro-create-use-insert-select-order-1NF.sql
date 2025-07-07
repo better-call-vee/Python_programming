@@ -1,3 +1,7 @@
+drop schema if exists vee1;
+
+create schema vee1;
+
 USE vee1;
 
 /*

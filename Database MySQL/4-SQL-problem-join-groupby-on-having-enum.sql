@@ -56,7 +56,7 @@ group by
 having
     count(gs.id) > 5;
 
--- Filter the final groups. who have more than 5 siblings
+-- Filter the final groups. who have more than 5 siblings using 'having'
 select
     ak.name,
     gs.gender,
